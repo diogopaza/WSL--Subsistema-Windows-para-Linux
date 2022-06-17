@@ -7,3 +7,6 @@ wsl -l -o == lista as distribuições que podem ser instaladas. Para adicionar d
 
 wsl --install -d nomeDaDistribuição == instala a distribuição para ser usada.
 
+wsl -l == lista as versões Linux instaladas.
+
+wsl -l -v == traz mais detalhes das distruições instadalas.
