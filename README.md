@@ -15,5 +15,11 @@ wsl nomeDaDistribuição == inicializa a distribuição padrão.
 
 DOCKER:
 
-inicializar o serviço no Ubuntu == sudo service docker start
+inicializar o serviço no Ubuntu == sudo service docker start.
+
 docker images == lista as imagens disponiveis.
+
+exemplo de comando para inicializar uma imagem docker Mysql, importante observar o uso do atributo -p indicando a que a porta 3306 do
+docker também será a porta 3306 do Linux que esta rodando no WSL do Windows.
+
+ docker run -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_USER=diogo -e MYSQL_PASSWORD=123 mysql:5.7
