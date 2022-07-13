@@ -10,3 +10,10 @@ wsl --install -d nomeDaDistribuição == instala a distribuição para ser usada
 wsl -l == lista as versões Linux instaladas.
 
 wsl -l -v == traz mais detalhes das distribuições instaladas.
+
+wsl nomeDaDistribuição == inicializa a distribuição padrão.
+
+DOCKER:
+
+inicializar o serviço no Ubuntu == sudo service docker start
+docker images == lista as imagens disponiveis.
