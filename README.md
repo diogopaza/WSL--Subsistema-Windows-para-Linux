@@ -2,8 +2,8 @@
 
 Roda versões do Linux diretamento do Windows sem a necessidade de instalar uma maquina virtual, como o VirtualBox por exemplo.
 
-wsl --install == comando para instalar o subsistema para Linux no windows.
-wsl -l -o == lista as distribuições que podem ser instaladas. Para adicionar distribuições é recomendavel usar o Microsoft Store.
+<strong>wsl --install</strong> == comando para instalar o subsistema para Linux no windows.<br/>
+<Strong>wsl -l -o</strong> == lista as distribuições que podem ser instaladas. Para adicionar distribuições é recomendavel usar o Microsoft Store.
 
 wsl --install -d nomeDaDistribuição == instala a distribuição para ser usada.
 
