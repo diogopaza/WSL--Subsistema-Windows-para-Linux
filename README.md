@@ -5,15 +5,15 @@ Roda versões do Linux diretamento do Windows sem a necessidade de instalar uma 
 <strong>wsl --install</strong> == comando para instalar o subsistema para Linux no windows.<br/>
 <Strong>wsl -l -o</strong> == lista as distribuições que podem ser instaladas. Para adicionar distribuições é recomendavel usar o Microsoft Store.
 
-wsl --install -d nomeDaDistribuição == instala a distribuição para ser usada.
+<strong>wsl --install -d nomeDaDistribuição</strong> == instala a distribuição para ser usada.
 
-wsl -l == lista as versões Linux instaladas.
+<strong>wsl -l</strong> == lista as versões Linux instaladas.
 
-wsl -l -v == traz mais detalhes das distribuições instaladas.
+<strong>wsl -l -v</strong> == traz mais detalhes das distribuições instaladas.
 
-wsl nomeDaDistribuição == inicializa a distribuição padrão.
+<strong>wsl nomeDaDistribuição</strong> == inicializa a distribuição padrão.
 
-DOCKER:
+<h2>DOCKER</h2>
 
 inicializar o serviço no Ubuntu == sudo service docker start.
 
