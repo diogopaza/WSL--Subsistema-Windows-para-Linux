@@ -22,9 +22,12 @@ Roda versões do Linux diretamento do Windows sem a necessidade de instalar uma 
 
 <h2>DOCKER</h2>
 
-inicializar o serviço no Ubuntu == sudo service docker start.
+inicializar o serviço no Ubuntu == <strong>service docker start</strong>.
 
-docker images == lista as imagens disponiveis.
+<strong>docker images</strong> == lista as imagens disponiveis.
+
+<strong>docker ps</strong> == lista os containers em atividade
+<strong>docker ps -a </strong> == lista todos os containers, incluindo os que estiverem parados
 
 exemplo de comando para inicializar uma imagem docker Mysql, importante observar o uso do atributo -p indicando a que a porta 3306 do
 docker também será a porta 3306 do Linux que esta rodando no WSL do Windows.
