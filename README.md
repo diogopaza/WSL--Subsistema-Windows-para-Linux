@@ -34,4 +34,4 @@ docker também será a porta 3306 do Linux que esta rodando no WSL do Windows.
  </p>
  
  <h2>Comandos Linux Úteis</h2>
- <p><strong>cat /etc/osrelease</strong> === verifica versão do Linux Ubuntu</p>
+ <p><strong>cat /etc/os-release</strong> === verifica versão do Linux Ubuntu</p>
