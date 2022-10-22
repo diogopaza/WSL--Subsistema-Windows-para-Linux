@@ -32,3 +32,6 @@ docker também será a porta 3306 do Linux que esta rodando no WSL do Windows.
  A flag -i permite mapear a entrada do teclado para o bashs e -t reserva o terminal.
  
  </p>
+ 
+ <h2>Comandos Linux Úteis</h2>
+ <p><strong>cat /etc/osrelease</strong> === verifica versão do Linux Ubuntu</p>
