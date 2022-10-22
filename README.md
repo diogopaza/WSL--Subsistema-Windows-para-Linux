@@ -16,7 +16,7 @@ Roda versões do Linux diretamento do Windows sem a necessidade de instalar uma 
 
 <h2>Resetando a senha de usuário no WSL</h2>
 
-<strong>wsl -l </strong> === lista as distruições linux instaldas no wsl do Windows.<br>
+<strong>wsl -l -v</strong> === lista as distruições linux instaladas no wsl do Windows.<br>
 <strong>wsl -d NOMEDADISTRIBUICAO --user root</strong><br>
 <strong>passwd NOMEDOUSUARIO</strong> == já dentro do Linux executar este último comando e redefinir a senha.
 
