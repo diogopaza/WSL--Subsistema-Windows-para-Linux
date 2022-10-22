@@ -36,6 +36,10 @@ docker também será a porta 3306 do Linux que esta rodando no WSL do Windows.
  
  iptables -t nat -L -n é possível ver o redirecionamento.
  
+ <h3>Volumes docker</h3>
+ <strong>docker create NOMEVOLUME</strong> === cria um novo volume docker.
+ <strong>docker volume ls</strong> === lista os volumes docker disponíveis.
+ 
  <p>
  <strong>docker exec -it meu_container /bin/bash </strong><br>
  Esse comando irá executar um o bash que é nosso console no linux.
