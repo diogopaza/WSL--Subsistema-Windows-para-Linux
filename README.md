@@ -30,6 +30,7 @@ inicializar o serviço no Ubuntu == <strong>service docker start</strong>.
 <strong>docker ps -a </strong> == lista todos os containers, incluindo os que estiverem parados.<br/>
 <strong>docker system prune -a</strong> == limpa containeres nao utilizados.<br/>
 <strong>docker volumes prune</strong> == remove volumes nao utilizados.<br/>
+<strong>docker rmi <image_id></strong> == serve para excluir uma imagem do disco local.<br/>
 
 exemplo de comando para inicializar uma imagem docker Mysql, importante observar o uso do atributo -p indicando a que a porta 3306 do
 docker também será a porta 3306 do Linux que esta rodando no WSL do Windows.
