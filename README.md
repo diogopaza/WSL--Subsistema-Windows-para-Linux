@@ -49,6 +49,10 @@ docker também será a porta 3306 do Linux que esta rodando no WSL do Windows.
  Esse comando irá executar um o bash que é nosso console no linux.
  A flag -i permite mapear a entrada do teclado para o bashs e -t reserva o terminal.
  
+ <h2>DOCKER-COMPOSE</h2>
+ <p>Configurado atraves de um arquivo <strong>YAML</strong> tem a capacidade de rodar varios containers, sem a necessidade de subir cada container manualmente.</p>
+  <p>YAML (uma sigla que significa YAML Ain’t Markup Language) não é propriamente uma linguagem de programação mas sim uma sintaxe para a criação de ficheiros de configuração. A estrutura do YAML é determinada pela sua indentação, sendo a indentação definida pelo numero de espaços no inicio da cada linha e podem ser zero, dois ou múltiplos de dois. A estrutura de cada bloco é constituída por níveis, sendo que o nível anterior é considerado parent e o inferior children. O caracter - indica o inicio de uma listagem de variaveis ou atributos que se encontram ao mesmo nível, e que deve ser considerado na contagem de espaços na indentação. Em YAML os comentários são indicados pelo caracter #. Se o comentário estiver entre dois blocos de código deve ser escrito sem espaços à esquerda, se for escrito após uma linha de código deve sempre ser precedido de um espaço ou de uma ou mais tabulações para que os comentários fiquem alinhados.</p>
+ 
  </p>
  <h2>Erro ao inicializar Docker no WSL</h2>
  <p>failed to start daemon: Error initializing network controller: error obtaining controller instance: unable to add return rule in DOCKER-ISOLATION-STAGE-1 chain:  (iptables failed: iptables --wait -A DOCKER-ISOLATION-STAGE-1 -j RETURN: iptables v1.8.7 (nf_tables):  RULE_APPEND failed (No such file or directory): rule in chain DOCKER-ISOLATION-STAGE-1
